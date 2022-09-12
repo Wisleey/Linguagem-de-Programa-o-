@@ -1,0 +1,22 @@
+#WISLEY RODRIGEUS
+#GABRIEL GOMES
+#RAFAEL LUCCA
+#JOÃO PESSOA 
+
+public class TED05 {
+    public static void main(String[] args) {
+
+    }
+    static {
+        int i = 1;
+        while (i <= 20) {
+            System.out.print(i);
+            if (i % 5 == 0)
+                System.out.println();
+            else
+                System.out.print('\t');
+            ++i;
+        }
+        System.out.println("Acabou o codigo\n");
+    }
+}
